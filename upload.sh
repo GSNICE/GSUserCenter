@@ -12,7 +12,6 @@ echo "current version is ${VersionNumber}, new version is ${NewVersionNumber}"
 git add .
 git commit -am ${NewVersionNumber}
 git tag ${NewVersionNumber}
-git push
 git push origin master --tags
 pod repo push GSPrivatePods GSUserCenter.podspec --verbose --allow-warnings --use-libraries --use-modular-headers
 
