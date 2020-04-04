@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GSUserCenter"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.swift_version = '5.1'
   s.summary      = "GSUserCenter."
 
